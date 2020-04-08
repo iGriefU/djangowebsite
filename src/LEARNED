@@ -1,0 +1,12 @@
+virtualenv erschafft eine virtuelle "sandbox"-like umgebung mit eigenen pip packages, sodass keine konflikte entstehen
+
+django-admin.exe macht ein project
+
+manage.py steuert das ganze projekt, alle weitere parameter sind steuerkommandos für wie website und der datenbank und generell der ganzen zusammenhänge
+
+models: klasse(n), die wie kleine "applets" , APPS genannt, in eine webseite integrierbar sind.
+        bisher wurden damit nur klassifizerte und typisierte daten in die datenbank gespeichert
+
+settings.py ist die "einstellungsdatei"; alle depencies sind dort deklariert, alle genutzten module, "apps"
+
+https://www.youtube.com/watch?v=F5mRW0jo-U4&t=3172s
