@@ -19,6 +19,7 @@ from products import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', views.home_view),
-    path('info/', views.info_view),
-    path('life/', views.philosophy_view)
+    path('home/', views.home_view),
+    path('about/', views.info_view),
+    path('philosophy/', views.philosophy_view)
 ]
