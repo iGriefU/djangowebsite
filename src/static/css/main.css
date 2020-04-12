@@ -1,0 +1,10 @@
+li{
+    display:inline;
+    color:#3693be;
+    border-right: 1px solid #000000;
+    text-align: center;
+}
+
+li:last-child{
+    border-right: 0;
+}

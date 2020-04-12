@@ -15,7 +15,9 @@ you can there set up by which names site urls can get called
 templates are html files which get rendered and sent as responses to site requests
 these documents can inherit code snippets by the {% block blockname %} {% endblock %}
 
-you can extend existing sites by using {% extends "file.html}
-you can include spicific code snippet-like in a line of a html documents using {%include "file.html"}
+you can extend existing sites by using {% extends "file.html" %} 
+you can include spicific code snippet-like in a line of a html documents using {%include "file.html"}#
+
+a file which uses the extend tags just implements the abstract code snippets
 
 https://www.youtube.com/watch?v=F5mRW0jo-U4&t=5040s
